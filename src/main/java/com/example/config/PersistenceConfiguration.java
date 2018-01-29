@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class PersistenceConfiguration {
 
 	@Value("${spring.datasource.url}")
-	private String url;
+	private String url ;
 	@Value("${spring.datasource.username}")
 	private String username;
 	@Value("${spring.datasource.password}")
