@@ -22,7 +22,7 @@ public class Employee  implements Serializable{
 
 	@Id
 	@Column(name="id",nullable=false)
-	private Integer id;
+	private Integer id ;
 
 	@NotBlank
    	@Column(name="name", nullable=false)
